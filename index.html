@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/logo.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/logo.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/logo.jpg"
+    />
+
+    <title>SonyPal Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">Sony</span><span class="tv">Pal</span
+          ><span class="fist">	&#128525</span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">TMKOC Stars</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Producers" class="nav-link" id="nav-link"
+            >Producers</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> You can Hear to TMKOC </span> <br />
+          <span class="connecting"> Connecting</span>
+        </h1>
+        <p>
+          An online streaming platform for Comedy <br />
+          We also dedicate some special time to throwbacks cuz old is gold
+        </p>
+        <a class="btn red" href="#">Learn More</a>
+        <a class="btn blue" href="#">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EekCzQRJvJI" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Watch TMKOC</h3>
+      <p>
+        Our primary objective is to keep everyone happy because happiness is the only medicine for all.
+      </p>
+
+      <h3>Its not About to be Alone!</h3>
+      <p>
+        The biggest takeaway from the show is that friendship is everything.
+      </p>
+    </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/img/GS3.jpg" class="big">
+          <img
+            src="assets/img/GS3.jpg"
+            alt="Anthony Joshua"
+            title="Gokuldham Society"
+          />
+        </a>
+
+        <a href="assets/img/3.jpg" class="big">
+          <img
+            src="assets/img/3.jpg"
+            alt="Tyson Fury"
+            title="Daya Tappu ke papa Gada"
+          />
+        </a>
+
+        <a href="assets/img/1.jpg" class="big">
+          <img
+            src="assets/img/1.jpg"
+            alt="Iron Mike"
+            title="Gada Family"
+          />
+        </a>
+
+        <a href="assets/img/4.jpg" class="big">
+          <img
+            src="assets/img/4.jpg"
+            alt="Mohammed Ali"
+            title="Babita - The Crush of Jetha"
+          />
+        </a>
+
+        <a href="assets/img/5.jpg" class="big"
+          ><img
+            src="assets/img/5.jpg"
+            alt="Deontay Wilder"
+            title="Ayyar Idli"
+          />
+        </a>
+
+        <a href="assets/img/6.jpg" class="big">
+          <img
+            src="assets/img/6.jpg"
+            alt="George Foreman"
+            title="Fire Brigade"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Jab TV Producers -->
+    <section class="people" id="Producers">
+      <div class="Producers">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/img/asit.jpg" alt="Asit Kumar Modi" />
+            <p class="name">Asit Kumar Modi</p>
+            <p class="role">Producer</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/img/taarak2.jpg" alt="Taarak Mehta" />
+            <p class="name">Taarak Mehta</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/img/neeta.jpg" alt="Neeta Modi" />
+            <p class="name">Neeta Modi</p>
+            <p class="role">Co - Producer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to watch new episodes</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="https://github.com/SnehuD"> <ion-icon name="logo-github"></ion-icon> </a>
+        <a href="https://instagram.com/snehuu1906?igshid=MzNlNGNkZWQ4Mg=="> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="https://www.linkedin.com/in/snehal-dahake-701bba219/"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy; Snehal Dahake - 2023. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
